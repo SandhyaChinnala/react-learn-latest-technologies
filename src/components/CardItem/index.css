@@ -1,0 +1,54 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 323px;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  /* border-radius: 24px; */
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+  }
+}
